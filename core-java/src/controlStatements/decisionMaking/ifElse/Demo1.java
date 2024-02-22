@@ -1,8 +1,9 @@
-package controlStatements.decisionMaking;
+package controlStatements.decisionMaking.ifElse;
 
-public class Demo2 {
+public class Demo1 {
     public static void main(String[] args) {
-        if (false) {
+        boolean isEmpty = false;
+        if (execute()) {
             System.out.println("1");
             System.out.println("2");
             System.out.println("3");
@@ -10,5 +11,8 @@ public class Demo2 {
         System.out.println("rest of the main method");
     }
 
+    private static boolean execute() {
+        return true;
+    }
 
 }

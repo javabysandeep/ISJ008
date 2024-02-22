@@ -1,8 +1,8 @@
-package controlStatements.decisionMaking;
+package controlStatements.decisionMaking.ifElse;
 
 import java.util.Scanner;
 
-public class Demo6 {
+public class Demo5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter three numbers");
@@ -12,9 +12,11 @@ public class Demo6 {
 
         if (number1 > number2 && number1 > number3) {
             System.out.println(number1 + " is max");
-        } else if (number2 > number1 && number2 > number3) {
+        }
+        if (number2 > number1 && number2 > number3) {
             System.out.println(number2 + " is max");
-        } else {
+        }
+        if (number3 > number1 && number3 > number2) {
             System.out.println(number3 + " is max");
         }
 

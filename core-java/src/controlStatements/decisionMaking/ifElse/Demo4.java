@@ -1,4 +1,4 @@
-package controlStatements.decisionMaking;
+package controlStatements.decisionMaking.ifElse;
 
 import java.util.Scanner;
 
