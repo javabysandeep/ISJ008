@@ -15,6 +15,10 @@ public class Person {
         this.id = id;
         this.name = name;
     }
+    Person(Person oldPerson){
+        this.id = oldPerson.id;
+        this.name= oldPerson.name;
+    }
 
     public static void main(String[] args) {
         Person person1 = new Person(1, "Raju");
@@ -22,5 +26,7 @@ public class Person {
         Person person3 = new Person(3,"Saheb");
         Person person4 = new Person(4, "Nete");
         Person person5 = new Person(5,"Tatya");
+
+        Person person6 = new Person(person1);
     }
 }
