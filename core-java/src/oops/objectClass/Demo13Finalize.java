@@ -5,8 +5,12 @@ public class Demo13Finalize {
         class A {
             @Override
             protected void finalize() throws Throwable {
-                super.finalize();
+                System.out.println("Finalize method");
             }
         }
+        A a = new A();
+        a = null;
+        System.gc();
+        System.out.println("Rest of the main");
     }
 }
