@@ -1,4 +1,4 @@
-package charArray;
+package stringHandling;
 
 public class Demo3ToUpperCase {
     public static void main(String[] args) {
