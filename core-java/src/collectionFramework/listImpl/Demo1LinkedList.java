@@ -1,4 +1,4 @@
-package collectionFramework;
+package collectionFramework.listImpl;
 
 public class Demo1LinkedList {
     public static void main(String[] args) {

@@ -1,8 +1,8 @@
-package collectionFramework;
+package collectionFramework.listImpl;
 
 import java.util.ArrayList;
 
-public class Demo12RemoveIf {
+public class Demo13Contains {
     public static void main(String[] args) {
         ArrayList<String> studentList = new ArrayList<>();
         studentList.add("Durwang");
@@ -15,8 +15,13 @@ public class Demo12RemoveIf {
         studentList.add("Adarsh");
         studentList.add("Swapnil");
         studentList.add("Don Rohit");
-       // studentList.removeIf((studentName->studentName.length()>5));
-        studentList.removeIf(studentName->studentName.contains("a"));
-        System.out.println(studentList);
+        System.out.println("Is PK there in the list " + studentList.contains("PK"));
+
+        ArrayList<String> searchList = new ArrayList<>();
+        searchList.add("Durwang");
+        searchList.add("Dharma");
+        searchList.add("Rohit");
+        searchList.add("Sandeep");
+        System.out.println(studentList.containsAll(searchList));
     }
 }
