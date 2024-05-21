@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.itshaala</groupId>
-  <artifactId>servlet-003</artifactId>
+  <artifactId>servlet-005-filters</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>servlet-003 Maven Webapp</name>
+  <name>servlet-005-filters Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -13,11 +13,6 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.mysql</groupId>
-      <artifactId>mysql-connector-j</artifactId>
-      <version>8.4.0</version>
     </dependency>
     <dependency>
       <groupId>org.projectlombok</groupId>
@@ -33,6 +28,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>servlet-003</finalName>
+    <finalName>servlet-005-filters</finalName>
   </build>
 </project>
